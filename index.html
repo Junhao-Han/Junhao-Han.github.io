@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Junhao (Leon) Han — Software Developer and Master's student in Computing at Queen's University. Connect on LinkedIn or GitHub.">
+  <meta name="description" content="Junhao (Leon) Han — Software Developer and Master's student in Computing at Queen's University. Connect on LinkedIn or GitHub, or view my resume.">
   <meta name="theme-color" content="#454c5e">
   <title>Leon Han | Software Developer</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23454c5e'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='monospace' font-size='32' fill='%23e0e2e8'%3ELH%3C/text%3E%3C/svg%3E">
@@ -20,6 +20,8 @@
     nav { display: flex; justify-content: center; gap: 0; margin: 4px 0 7px; }
     nav a { width: 32px; min-height: 44px; display: grid; place-items: center; }
     svg { width: 20px; height: 20px; fill: currentColor; }
+    .resume { display: inline-flex; align-items: center; gap: 7px; min-height: 44px; font-size: 16px; }
+    .resume:hover { text-decoration: underline; text-underline-offset: 5px; }
     @media (max-width: 420px) { h1 { font-size: 25px; } nav a { width: 44px; } }
   </style>
 </head>
@@ -40,6 +42,9 @@
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"/></svg>
       </a>
     </nav>
+    <a class="resume" href="files/LeonHan_Resume.pdf">PDF Resume
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 7V3H6v4h12Zm0 10v4H6v-4H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2Zm-2-3H8v5h8v-5Zm3-3a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"/></svg>
+    </a>
   </main>
 </body>
 </html>
